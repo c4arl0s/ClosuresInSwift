@@ -1,6 +1,8 @@
 # ClosuresInSwift
 Closures in Swift
 
+# ViewController.swift
+
 ``` swift
 //
 //  ViewController.swift
@@ -25,6 +27,8 @@ class ViewController: UIViewController {
     }
 }
 ```
+
+# Console
 
 ``` console
 function using a closure sum = 14
