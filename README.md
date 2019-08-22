@@ -26,3 +26,6 @@ class ViewController: UIViewController {
 }
 ```
 
+``` console
+function using a closure sum = 14
+```
