@@ -24,6 +24,13 @@ print(reverseNames)
 - Put the block or closure instead of the parameter
 
 ``` swift
+{ (parameters) -> return type in
+    statements
+}
+```
+
+
+``` swift
 var anotherReverseName = names.sorted(by: {(stringOne: String, stringTwo: String) -> Bool in
     return stringOne > stringTwo
 })
@@ -35,6 +42,12 @@ print(anotherReverseName)
 ["Trinidad", "Norma", "Carlos"]
 ```
 
+# Trailing Closure
+
+``` swift
+
+
+``
 
 
 # ViewController.swift
