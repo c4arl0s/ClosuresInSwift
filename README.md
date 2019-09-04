@@ -17,6 +17,7 @@ print(reverseNames)
 # Console
 ``` console
 ["Trinidad", "Norma", "Carlos"]
+```
 
 
 # ViewController.swift
