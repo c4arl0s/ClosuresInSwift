@@ -33,6 +33,7 @@ print(anotherReverseName)
 
 ``` console
 ["Trinidad", "Norma", "Carlos"]
+```
 
 
 
