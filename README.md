@@ -19,6 +19,22 @@ print(reverseNames)
 ["Trinidad", "Norma", "Carlos"]
 ```
 
+# Closure Expression Syntax
+
+- Put the block or closure instead of the parameter
+
+``` swift
+var anotherReverseName = names.sorted(by: {(stringOne: String, stringTwo: String) -> Bool in
+    return stringOne > stringTwo
+})
+
+print(anotherReverseName)
+```
+
+``` console
+["Trinidad", "Norma", "Carlos"]
+
+
 
 # ViewController.swift
 
