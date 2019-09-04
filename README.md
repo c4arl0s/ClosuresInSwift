@@ -3,6 +3,22 @@ Closures in Swift
 
 - Closures are self-contained blocks of functionality that can be passed around and used in your code.
 
+# The sorted Method
+
+``` swift
+let names = ["Norma", "Carlos", "Trinidad"]
+func backward(_ stringOne: String, _ stringTwo: String) -> Bool {
+    return stringOne > stringTwo
+}
+var reverseNames = names.sorted(by: backward)
+print(reverseNames)
+```
+
+# Console
+``` console
+["Trinidad", "Norma", "Carlos"]
+
+
 # ViewController.swift
 
 ``` swift
