@@ -1,6 +1,8 @@
 # ClosuresInSwift
 Closures in Swift
 
+- Closures are self-contained blocks of functionality that can be passed around and used in your code.
+
 # ViewController.swift
 
 ``` swift
