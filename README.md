@@ -31,6 +31,15 @@ func sum(numbers: [Int]) -> Int {
 }
 ```
 
+```swift
+let firstSum = sum(numbers: [1,2,3])
+print(firstSum)
+```
+
+```console
+6
+```
+
 # Write a closure thats do the same thing
 
 ```swift
@@ -41,13 +50,24 @@ let sumClosure = { (numbers: [Int]) -> Int in
     }
     return total
 }
+let secondSum = sumClosure([4,5,6])
+print(secondSum)
+```
+
+```console
+15
 ```
 
 # Passing a Closure as argument of a function
 
 ```swift
-let totalSum = sum(numbers: [sumClosure([1,2,3]),sumClosure([1,2,3])])
+let thirdSum = sum(numbers: [sumClosure([1,2,3]),sumClosure([4,5,6])])
 ```
+
+```console
+21
+```
+
 
 # Sorted Method
 
