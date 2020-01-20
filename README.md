@@ -19,6 +19,18 @@ Closures in Swift
 }
 ```
 
+# Comparison with a Function
+
+```swift
+func sum(numbers: [Int]) -> Int {
+    var total: Int = 0
+    for number in numbers {
+        total = total + number
+    }
+    return total
+}
+```
+
 # Sorted Method
 
 ```swift
