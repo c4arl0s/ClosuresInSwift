@@ -40,7 +40,7 @@ print(firstSum)
 6
 ```
 
-# Write a closure thats do the same thing
+# Write a closure thats does the same thing
 
 ```swift
 let sumClosure = { (numbers: [Int]) -> Int in
