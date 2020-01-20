@@ -15,6 +15,12 @@ Closures in Swift
 
 # Sorted Method
 
+```swift
+let questions: [String] = ["what is 7+7", "what is the capital of Vermont", "what is the cognan made from"]
+questions.sorted(by: (String, String) throws -> Bool)
+```
+
+
 ``` swift
 var anotherReverseName = names.sorted(by: {(stringOne: String, stringTwo: String) -> Bool in
     return stringOne > stringTwo
