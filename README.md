@@ -43,6 +43,10 @@ let sumClosure = { (numbers: [Int]) -> Int in
 }
 ```
 
+# Passing a Closure as argument of a function
+
+
+
 # Sorted Method
 
 ```swift
