@@ -14,7 +14,7 @@ Closures in Swift
 - Put the block or closure instead of the parameter
 
 ``` swift
-{ (parameters) -> return type in
+{ (parameters) -> returnType in
     statements
 }
 ```
