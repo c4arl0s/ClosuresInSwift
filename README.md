@@ -3,6 +3,12 @@ Closures in Swift
 
 - Closures are self-contained blocks of functionality that can be passed around and used in your code.
 
+# Signature
+
+```swift
+(parameters) -> ReturnType
+```
+
 # Closure Expression Syntax
 
 - Put the block or closure instead of the parameter
