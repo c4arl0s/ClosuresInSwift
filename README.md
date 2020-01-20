@@ -13,6 +13,7 @@ Closures in Swift
 }
 ```
 
+# Sorted Method
 
 ``` swift
 var anotherReverseName = names.sorted(by: {(stringOne: String, stringTwo: String) -> Bool in
