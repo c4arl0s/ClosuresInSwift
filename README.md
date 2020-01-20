@@ -31,6 +31,18 @@ func sum(numbers: [Int]) -> Int {
 }
 ```
 
+# Write a closure thats do the same thing
+
+```swift
+let sumClosure = { (numbers: [Int]) -> Int in
+    var total: Int = 0
+    for number in numbers {
+        total = total + number
+    }
+    return total
+}
+```
+
 # Sorted Method
 
 ```swift
