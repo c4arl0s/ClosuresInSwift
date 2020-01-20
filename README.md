@@ -33,7 +33,11 @@ print(anotherReverseName)
 func someFunctionThatTakesAClosure(closure: () -> Void) {
     // function body goes here
 }
+```
 
+
+
+```swift
 // Here's how you call this function without using a trailing closure:
 someFunctionThatTakesAClosure(closure: { /* closure's body goes here */ })
 
